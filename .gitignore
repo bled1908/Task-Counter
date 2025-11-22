@@ -1,0 +1,146 @@
+# Python: Git ignore for Task Counter project
+# See: https://github.com/github/gitignore/blob/main/Python.gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.pyd
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-wheel-metadata/
+share/python-wheels/
+*.whl
+
+# PyInstaller
+# Build output directories and generated artifacts
+dist/
+build/
+*.pyz
+*.toc
+xref-*.html
+warn-*.txt
+# If you don't want to keep generated spec files under version control,
+# uncomment the following line:
+# *.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+coverage/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582; used by e.g. python-local
+__pypackages__/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Editor directories and files
+.idea/
+.vscode/
+.vs/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Local application state (do not commit user data)
+counter_state.txt
+localpycs/
+
+# Windows executables and dlls
+*.exe
+*.dll
+
+# Compiled object files, temp files
+*.o
+*.obj
+*~
+*.swp
+*.swo
+
+# Environment variables / secrets
+.env
+.env.*
+env.local
+
+# Certificates and keys
+*.pem
+*.key
+*.cer
+*.crt
+
+# Python packaging metadata
+*.egg
+*.egg-info/
+dist/
+
+# Coverage reports
+coverage/
+.coverage
+
+# Optional: IDE/test caches
+.ropeproject/
+.mypy_cache/
+.pyre/
+.pytest_cache/
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# End of .gitignore
