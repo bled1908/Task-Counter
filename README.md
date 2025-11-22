@@ -1,8 +1,9 @@
 # Cute Task Counter
 
+
 An uncomplicated desktop application implemented in Python using the Tkinter graphical toolkit. The application provides a minimal workflow to set and decrement a task counter, displays contextual motivational messages, and presents a visual progress indicator.
 
-![Initial screen](public/Initial%20Pic.png)
+<p align="center"><img src="public/Initial%20Pic.png" alt="Initial screen" /></p>
 
 ## Overview
 
@@ -18,13 +19,15 @@ The primary goal of this project is to offer a lightweight, distraction-minimizi
 
 ## Screenshots
 
+
 Set starting count
 
-![Set starting count](public/task%20set%20pic.png)
+<p align="center"><img src="public/task%20set%20pic.png" alt="Set starting count" /></p>
+
 
 All tasks completed
 
-![Tasks completed](public/task%20completed.png)
+<p align="center"><img src="public/task%20completed.png" alt="Tasks completed" /></p>
 
 ## Requirements
 
